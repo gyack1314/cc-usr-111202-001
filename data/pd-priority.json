@@ -1,0 +1,71 @@
+{
+  "subjects": [
+    {
+      "subject_id": "s1",
+      "baseline": [
+        {
+          "lesion_id": "L1",
+          "mm": 100
+        }
+      ]
+    },
+    {
+      "subject_id": "s2",
+      "baseline": [
+        {
+          "lesion_id": "L1",
+          "mm": 25
+        }
+      ]
+    }
+  ],
+  "visits": [
+    {
+      "record_id": "r0",
+      "subject_id": "s1",
+      "visit_day": 28,
+      "recorded_day": 30,
+      "version": 1,
+      "targets": [
+        {
+          "lesion_id": "L1",
+          "mm": 10
+        }
+      ],
+      "non_target": "stable",
+      "new_lesion": false
+    },
+    {
+      "record_id": "r1",
+      "subject_id": "s1",
+      "visit_day": 56,
+      "recorded_day": 57,
+      "version": 1,
+      "targets": [
+        {
+          "lesion_id": "L1",
+          "mm": 50
+        }
+      ],
+      "non_target": "stable",
+      "new_lesion": false
+    },
+    {
+      "record_id": "r2",
+      "subject_id": "s1",
+      "visit_day": 84,
+      "recorded_day": 85,
+      "version": 1,
+      "targets": [
+        {
+          "lesion_id": "L1",
+          "mm": 60
+        }
+      ],
+      "non_target": "stable",
+      "new_lesion": false
+    }
+  ],
+  "clinical_cutoff": 84,
+  "knowledge_cutoff": 86
+}
